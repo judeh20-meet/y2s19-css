@@ -1,12 +1,19 @@
-.everything{
-	background-color: #e9e6ff;
-	color:#FF4B3E;
-	font-family: "Arial"
+body{
+	background-color: pink;
+	margin: 0px
 }
+* {
+    box-sizing: border-box;
+}
+
 #h1{
 	color:#73683B;
-	text-align:center;
-	font-size:100px;
+	position: relative;
+	width: 100%;
+	height: 60px;
+	font-family: Arial;
+	background-color: yellow;
+	border-bottom: solid gray 1px;
 }
 #p1{
 	color:#b0a084;
@@ -18,6 +25,36 @@
 	text-align:center;
 	font-size:25px;
 }
-a{
-	text-align:center;
+.link{
+	color:#b0a084;
+}
+.vegetarian{
+	color: yellow;
+}
+.non-vegetarian{
+	color: purple;
+}
+.title{
+
+}
+.content{
+	position: absolute;
+	top: 0px;
+	left:200px;
+	border: solid gray 2px;
+	margin: 5px;
+	padding: 0px 15px;
+	padding-bottom: 10px;
+}
+.sidebar{
+	background-color: lightblue;
+	position: absolute;
+	top: 0px;
+	width: 200px;
+	height: 100%;
+	padding: 10px;
+}
+.container{
+	position: relative;
+	height: 1000px;
 }
